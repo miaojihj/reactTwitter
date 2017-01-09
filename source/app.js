@@ -28,3 +28,4 @@ var ReactClass=React.createClass({
 
 var reactComponentElement =React.createElement(ReactClass);
 var reactComponent = ReactDOM.render(reactComponentElement,document.getElementById('react-application'))
+ReactDOM.render(<Application />, document.getElementById('react-applocation'));
